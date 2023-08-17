@@ -21,7 +21,7 @@ function isTriangle(){
 
     console.log(sum);
 
-    if(triangleSides[0].value && triangleSides[1].value && triangleSides[2].value != 0){
+    if((triangleSides[0].value === 0) || (triangleSides[1].value === 0) || (triangleSides[2].value === 0)){
         if(sum===180){
             console.log("Good");
             finalOutput.value= "Great! This forms a Triangle";
@@ -29,8 +29,11 @@ function isTriangle(){
             console.log("Bad");
             finalOutput.value= "Sorry! This is not a Triangle";
         }
-    }else{
-        finalOutput.value= "A side cannot be equal to 0";
+             
+    }
+    else{
+        finalOutput.value= "Sorry! A side cannot be equal to 0";
+        
     }
 
     
