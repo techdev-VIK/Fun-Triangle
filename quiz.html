@@ -9,16 +9,35 @@
     <h1> Triangle Quiz</h1>
     <form class="quiz-form">
         <div class="quiz-container">
-            <p>What will be the third angle when first angle is 45° and second angle is 75°</p>
+            <p>What will be the third angle when first angle is 45° and second angle is 75°?</p>
 
-            <input type="radio"/>
-            <input type="radio"/>
-            <input type="radio"/>
+            <label><input type="radio" name="ques1" value="45°">45°</label>
+            
 
-
+            <label><input type="radio" name="ques1" value="60°">60°</label>
             
             
+            <label><input type="radio" name="ques1" value="75°">75°</label>
+             
+        </div>
+
+        <div class="quiz-container">
+            <p>What do we call a triangle whose all sides are equal?</p>
+
+            <label><input type="radio" name="ques2" value="Isosceles">Isosceles</label>
+            
+
+            <label><input type="radio" name="ques2" value="Equilateral">Equilateral</label>
+            
+             
+            <label><input type="radio" name="ques2" value="Right-Angled">Right-Angled</label>
+             
         </div>
     </form>
+    <button id="button-click">Submit</button>
+
+    <textarea id="output" disabled></textarea>
+
+    <script src="quiz.js"></script>
 </body>
 </html>
