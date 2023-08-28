@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navigation">
+        <div>
+
+        <h1>
+            THIS IS THE GAME OF TRIANGLES!!!
+        </h1>
+    </div>
+
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-inline"><a  class="link" href="index.html">Home</a></li>
+            &nbsp;
+            <li class="list-inline"><a class="active" href="CalHypotenuse.html">Hypotenuse_Game</a></li>
+            &nbsp;
+            <li class="list-inline">Quiz</li>
+        </ul>   
+    </nav>
+    <div class="container">
     <h1> Calculate the Hypotenuse</h1>
     
         <label>a </label>
@@ -13,10 +31,13 @@
 
         <label>b </label>
         <input type="text" class="input-pick" />
+        <hr>
 
         <button id="calculate-Hyp"> Hypotenuse? </button>
 
         <div id="output"></div>
+
+    </div>
 
         <script src="hypotenuse.js"></script>
 
