@@ -5,6 +5,7 @@
     width: 50vw;
     margin:auto;
     text-align: center;
+    background-color: rgb(188, 224, 173);
 }
 
 label{
@@ -46,4 +47,7 @@ input{
 
 .quiz-form{
     display:inline
+}
+.space{
+    width: 50vw;
 }
