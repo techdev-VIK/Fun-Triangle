@@ -43,3 +43,7 @@ input{
 .link{
     text-decoration: none;
 }
+
+.quiz-form{
+    display:inline
+}
