@@ -24,7 +24,7 @@
   }
   
   .navigation h1 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 10px;
     color: #fff;
   }
@@ -63,7 +63,7 @@
   }
   
   .container h1 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 20px;
     color: #fff;
   }
@@ -74,13 +74,17 @@
     color: #ccc;
   }
   
-  input[type="number"] {
+  .input-pick {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #666;
   }
   
-  button#click-btn {
+  button#calculate-Hyp {
     display: block;
     width: 100%;
     padding: 12px;
@@ -94,16 +98,18 @@
     margin-top: 15px;
   }
   
-  button#click-btn:hover {
+  button#calculate-Hyp:hover {
     background-color: #cc0052;
   }
   
-  textarea#output {
-    width: 100%;
-    height: 100px;
-    margin-top: 15px;
-    padding: 8px;
-    resize: vertical;
+  #output {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #333;
     color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
   }
   
